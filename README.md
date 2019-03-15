@@ -27,7 +27,7 @@ tie for 3rd place in the sample data).
 ### Guidelines
 
 This should be implemented in a language with which you are familiar. We would
-prefer that you use elixir, ruby, javascript, python, swift, or kotlin, if
+prefer that you use ruby or javascript, if
 you are comfortable doing so. If none of these are comfortable, please choose a
 language that is both comfortable for you and suited to the task.
 
@@ -52,3 +52,4 @@ compiled language, please keep this in mind. (Dependency on Xcode is acceptable
 for objective-c solutions) Please use platform-agnostic constructs where
 possible (line-endings and file-path-separators are two problematic areas).
 
+Please email abe@iheartjane.com if you have any questions
