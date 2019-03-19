@@ -35,16 +35,16 @@ class TeamInfo implements Comparator<TeamInfo> {
 	}
 	@Override
 	public int compare(TeamInfo teamOne, TeamInfo teamTwo){
-			int temp = teamTwo.getScore() - teamOne.getScore();
-			if (temp == 0) {
-				String one = teamOne.getName().replaceAll(" ", "");
-				String two = teamTwo.getName().replaceAll(" ", "");
-				if (teamOne.getScore() == teamTwo.getScore()) {
-					return one.compareToIgnoreCase(two);
-				}
-				return 0;
+		int temp = teamTwo.getScore() - teamOne.getScore();
+		if (temp == 0) {
+			String one = teamOne.getName().replaceAll(" ", "");
+			String two = teamTwo.getName().replaceAll(" ", "");
+			if (teamOne.getScore() == teamTwo.getScore()) {
+				return one.compareToIgnoreCase(two);
 			}
-			return temp;
+			return 0;
 		}
+		return temp;
+	}
 	
 }
