@@ -45,5 +45,4 @@ class TeamInfo implements Comparator<TeamInfo> {
 		}
 		return temp;
 	}
-	
 }
