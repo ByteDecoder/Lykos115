@@ -42,7 +42,6 @@ class TeamInfo implements Comparator<TeamInfo> {
 			if (teamOne.getScore() == teamTwo.getScore()) {
 				return one.compareToIgnoreCase(two);
 			}
-			return 0;
 		}
 		return temp;
 	}
