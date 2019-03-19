@@ -4,7 +4,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Collections;
 
-class LeaderBoard {
+class LeaderBoards {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		Scanner inStream = null;
