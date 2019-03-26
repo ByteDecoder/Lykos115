@@ -39,12 +39,8 @@ class TeamInfo implements Comparator<TeamInfo> {
 		if (temp == 0) {
 			String one = teamOne.getName().replaceAll(" ", "");
 			String two = teamTwo.getName().replaceAll(" ", "");
-			if (teamOne.getScore() == teamTwo.getScore()) {
-				return one.compareToIgnoreCase(two);
-			}
-			return 0;
+			return one.compareToIgnoreCase(two);
 		}
 		return temp;
 	}
-	
 }
