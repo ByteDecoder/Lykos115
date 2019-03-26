@@ -64,9 +64,11 @@ class LeaderBoards {
 			TeamInfo next = LeaderBoard.get(i + 1); 
 			if (it.getScore() == next.getScore()) {
 				System.out.println(k + ". " + it.getName() + ", " + it.getScore() + " pts");
+				temp++;
 			}else{
 				System.out.println(k + ". " + it.getName() + ", " + it.getScore() + " pts");
-				k++;
+				k += temp + 1;
+				temp = 0;
 			}
 		}
 		TeamInfo it = LeaderBoard.get(LeaderBoard.size() - 1);
